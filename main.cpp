@@ -33,6 +33,7 @@ int main(int argc, const char * argv[]) {
     }
     for(i=0;i<N;i++)
         printf("%d\n",a[i]);
+    
     free(a);
     return 0;
 }
